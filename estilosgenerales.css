@@ -1,0 +1,322 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.nombre{
+    display: flex;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 15px;
+}
+
+.nombre p{
+    padding-top: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+}
+
+.idiomasdiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.idiomasdiv a{
+    text-decoration: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.idiomasdiv a:hover{
+    background: #eaecf0;
+}
+
+.idiomasdiv a .cuadros:hover strong{
+    text-decoration: underline;
+}
+
+
+.logowiki{
+    display: flex;
+    padding: 10px;
+}
+
+.logowiki img{
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cuadros{
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    width: 100%;
+}
+
+.cuadros strong{
+    font-size: 16px;
+    color: #3366cc;
+    text-decoration: none;
+
+}
+
+.cuadros strong:hover{
+    text-decoration: solid;
+}
+
+.cuadros p{
+    color: #54595d;
+    font-size: 13px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.busqueda{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.busqueda form input{
+    width: 400px;
+    height: 44px;
+    padding-left: 12px;
+    border-right: 1px #fff;
+    margin-right: 0px;
+    border: solid 0px;
+}
+
+.busqueda form select{
+    height: 44px;
+    margin-left: 0px;
+    border-left: 1px #fff solid;
+    border-right: 1px #fff solid;
+    background: transparent;
+    border: solid 0px;
+}
+.busqueda form div{
+    border: 1px solid #a2a9b1;
+}
+
+.busqueda form select:focus{ 
+    outline: none;
+}
+
+.busqueda form button{
+    height: 50px;
+    margin-left: 0px;
+    background: #3366cc;
+    width: 56px;
+    color: #fff;
+    border: 0px solid;
+}
+
+.leerwikipedia{
+    display: flex;
+    display: row;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 36px;
+}
+
+.leerwikipedia div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.leerwikipedia div hr{
+    width: 450px;
+    align-items: center;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.leerwikipedia div .strong{
+    background: #fff;
+    border: 1px #a2a9b1 solid;
+    color: #3366cc;
+    width: 34%;
+    height: 36px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.leerwikipedia div .strong p{
+    margin: auto;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.leerwikipedia div .strong svg{
+    margin: auto;
+}
+
+
+.infowiki{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+}
+
+.info1{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+}
+
+.sidebar{
+    display: flex;
+    margin: auto;
+    background: #fff;
+    width: 80%;
+    height: 45%;
+    flex-direction: row;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    width: 80%;
+    text-decoration: none;
+}
+
+.texto p a{
+    text-decoration: none;
+}
+
+.texto span{
+     font-weight: 700;
+     color: #54595d;
+     margin-bottom: 10px;
+}
+
+.texto p{
+    color: #54595d;
+}
+
+.app{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding-left: 50px;
+}
+
+.sidebar svg{
+    margin: auto;
+    margin-top: 0px;
+}
+
+.links{
+    width: 75%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columnlink{
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.columnlink a{
+    text-decoration: none;
+}
+
+.cuadro{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    margin: auto;
+
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+.cuadro:hover{
+    background: #eaecf0;
+}
+
+.cuadro svg, .cuadro img {
+    margin: auto;
+}
+
+.cuadrotexto{
+    font-size: 13px;
+    margin: auto;
+    width: 70%;
+}
+
+.cuadrotexto span{
+    font-size: 14px;
+    color: #4d79d2;
+}
+
+
+.cuadrotexto p{
+    color: #54595d;
+    margin: 0px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+}
+
+footer div{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    font-size: 13px;
+    color: #54595d;
+    text-align: center;
+    justify-content: center;
+}
+
+footer div a{
+    text-decoration: none;
+}
+
+.marginpunto{
+    margin-right: 10px;
+    margin-left: 10px;
+}
